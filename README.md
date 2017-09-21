@@ -1,4 +1,9 @@
 
+## Pull/run image
+docker run -d -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:5.6.1
+
+may need to add -u elastic:changeme or add xpack.security.enabled: false in running container (elasticsearch-yml) and do a docker restart on container
+
 ## Create index
 curl -XPUT 'localhost:9200/cartoon?pretty' -H 'Content-Type: application/json' -d' { "settings" : { "index" : { "number_of_shards" : 3, "number_of_replicas" : 1 } } } '
 
