@@ -3323,7 +3323,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Gatchaman Crowds Insight","genre":["Adventure","Sci-Fi"],"type":"TV","episodes":"12","rating":"7.47","members":41220}
 {"index":{"_type":"anime"}}
-{"name":"Grisaia no Meikyuu Special","genre":"Ecchi","type":"Special","episodes":"1","rating":"7.47","members":16648}
+{"name":"Grisaia no Meikyuu Special","genre":["Ecchi"],"type":"Special","episodes":"1","rating":"7.47","members":16648}
 {"index":{"_type":"anime"}}
 {"name":"Hakushaku to Yousei","genre":["Adventure","Fantasy","Historical","Magic"],"type":"TV","episodes":"12","rating":"7.47","members":63915}
 {"index":{"_type":"anime"}}
@@ -4199,7 +4199,7 @@
 {"index":{"_type":"anime"}}
 {"name":"All Alone With You","genre":["Fantasy","Music"],"type":"Music","episodes":"1","rating":"7.35","members":7612}
 {"index":{"_type":"anime"}}
-{"name":"Amagami SS: Tachibana Miya-hen - Imouto","genre":"School","type":"Special","episodes":"1","rating":"7.35","members":31019}
+{"name":"Amagami SS: Tachibana Miya-hen - Imouto","genre":["School"],"type":"Special","episodes":"1","rating":"7.35","members":31019}
 {"index":{"_type":"anime"}}
 {"name":"Amagi Brilliant Park: Nonbirishiteiru Hima ga Nai!","genre":["Comedy"],"type":"Special","episodes":"1","rating":"7.35","members":30342}
 {"index":{"_type":"anime"}}
@@ -6117,7 +6117,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Gokukoku no Brynhildr","genre":["Drama","Mystery","Sci-Fi","Seinen"],"type":"TV","episodes":"13","rating":"7.09","members":159899}
 {"index":{"_type":"anime"}}
-{"name":"Grisaia no Rakuen Specials","genre":"Ecchi","type":"Special","episodes":"5","rating":"7.09","members":15055}
+{"name":"Grisaia no Rakuen Specials","genre":["Ecchi"],"type":"Special","episodes":"5","rating":"7.09","members":15055}
 {"index":{"_type":"anime"}}
 {"name":"Heart Realize","genre":["Music"],"type":"Music","episodes":"1","rating":"7.09","members":1626}
 {"index":{"_type":"anime"}}
@@ -6881,7 +6881,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Kochira Katsushikaku Kameari Kouenmae Hashutsujo The Movie 2: UFO Shuurai! Tornado Daisakusen","genre":["Comedy","Police"],"type":"Movie","episodes":"1","rating":"6.99","members":504}
 {"index":{"_type":"anime"}}
-{"name":"Kousoku Denjin Albegus","genre":"Mecha","type":"TV","episodes":"45","rating":"6.99","members":698}
+{"name":"Kousoku Denjin Albegus","genre":["Mecha"],"type":"TV","episodes":"45","rating":"6.99","members":698}
 {"index":{"_type":"anime"}}
 {"name":"Kuro no Sumika: Chronus","genre":"Psychological","type":"Movie","episodes":"1","rating":"6.99","members":12270}
 {"index":{"_type":"anime"}}
@@ -7099,7 +7099,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Grappler Baki","genre":["Action","Shounen","Sports"],"type":"OVA","episodes":"1","rating":"6.95","members":4557}
 {"index":{"_type":"anime"}}
-{"name":"Grisaia no Kajitsu Specials","genre":"Ecchi","type":"Special","episodes":"6","rating":"6.95","members":26747}
+{"name":"Grisaia no Kajitsu Specials","genre":["Ecchi"],"type":"Special","episodes":"6","rating":"6.95","members":26747}
 {"index":{"_type":"anime"}}
 {"name":"Ikkitousen: Xtreme Xecutor","genre":["Action","Ecchi","Martial Arts","School","Super Power"],"type":"TV","episodes":"12","rating":"6.95","members":28260}
 {"index":{"_type":"anime"}}
@@ -7751,7 +7751,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Nisoku Hokou","genre":["Music"],"type":"Music","episodes":"1","rating":"6.86","members":1116}
 {"index":{"_type":"anime"}}
-{"name":"Persona 4 the Animation: A Brief Lesson on Izanagi &amp; Izanami","genre":"School","type":"Special","episodes":"1","rating":"6.86","members":2497}
+{"name":"Persona 4 the Animation: A Brief Lesson on Izanagi &amp; Izanami","genre":["School"],"type":"Special","episodes":"1","rating":"6.86","members":2497}
 {"index":{"_type":"anime"}}
 {"name":"Piyoko ni Omakase pyo!","genre":["Comedy","Sci-Fi","Shounen"],"type":"OVA","episodes":"8","rating":"6.86","members":1480}
 {"index":{"_type":"anime"}}
@@ -8803,7 +8803,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Hoshi no Kirby","genre":["Action","Adventure","Comedy","Fantasy","Parody"],"type":"TV","episodes":"100","rating":"6.73","members":10416}
 {"index":{"_type":"anime"}}
-{"name":"Hyakka Ryouran: Samurai Girls Specials","genre":"Ecchi","type":"Special","episodes":"6","rating":"6.73","members":15446}
+{"name":"Hyakka Ryouran: Samurai Girls Specials","genre":["Ecchi"],"type":"Special","episodes":"6","rating":"6.73","members":15446}
 {"index":{"_type":"anime"}}
 {"name":"Inochi no Chikyuu: Dioxin no Natsu","genre":["Drama"],"type":"Movie","episodes":"1","rating":"6.73","members":335}
 {"index":{"_type":"anime"}}
@@ -9207,7 +9207,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Kakumei no Wakaki Sora","genre":["Drama","Historical"],"type":"OVA","episodes":"1","rating":"6.68","members":379}
 {"index":{"_type":"anime"}}
-{"name":"Kanokon: Manatsu no Dai Shanikusai Specials","genre":"Ecchi","type":"Special","episodes":"2","rating":"6.68","members":10513}
+{"name":"Kanokon: Manatsu no Dai Shanikusai Specials","genre":["Ecchi"],"type":"Special","episodes":"2","rating":"6.68","members":10513}
 {"index":{"_type":"anime"}}
 {"name":"Kizuna Ichigeki","genre":["Comedy","Martial Arts"],"type":"Movie","episodes":"1","rating":"6.68","members":4128}
 {"index":{"_type":"anime"}}
@@ -9465,7 +9465,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Miss Monochrome: The Animation 3","genre":["Comedy","Music","Slice of Life"],"type":"TV","episodes":"13","rating":"6.66","members":7905}
 {"index":{"_type":"anime"}}
-{"name":"Mobile Suit Gundam Unicorn: One of Seventy Two","genre":"Mecha","type":"Special","episodes":"1","rating":"6.65","members":889}
+{"name":"Mobile Suit Gundam Unicorn: One of Seventy Two","genre":["Mecha"],"type":"Special","episodes":"1","rating":"6.65","members":889}
 {"index":{"_type":"anime"}}
 {"name":"Moetan Specials","genre":["Comedy","Ecchi","Magic","School"],"type":"Special","episodes":"2","rating":"6.65","members":4036}
 {"index":{"_type":"anime"}}
@@ -9591,7 +9591,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Futari wa Precure: Splash☆Star Maji★Doki♥ Theater","genre":["Action","Comedy","Fantasy","Magic","Shoujo"],"type":"Movie","episodes":"1","rating":"6.63","members":609}
 {"index":{"_type":"anime"}}
-{"name":"Gakkou no Kowai Uwasa: Hanako-san ga Kita!!","genre":"Horror","type":"TV","episodes":"35","rating":"6.63","members":637}
+{"name":"Gakkou no Kowai Uwasa: Hanako-san ga Kita!!","genre":["Horror"],"type":"TV","episodes":"35","rating":"6.63","members":637}
 {"index":{"_type":"anime"}}
 {"name":"Gall Force 3: Stardust War","genre":["Action","Military","Sci-Fi","Space"],"type":"OVA","episodes":"1","rating":"6.63","members":1281}
 {"index":{"_type":"anime"}}
@@ -9797,7 +9797,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Hi☆sCoool! SeHa Girls","genre":["Comedy","Game"],"type":"TV","episodes":"13","rating":"6.60","members":7440}
 {"index":{"_type":"anime"}}
-{"name":"Hyakka Ryouran: Samurai After Specials","genre":"Ecchi","type":"Special","episodes":"2","rating":"6.60","members":3703}
+{"name":"Hyakka Ryouran: Samurai After Specials","genre":["Ecchi"],"type":"Special","episodes":"2","rating":"6.60","members":3703}
 {"index":{"_type":"anime"}}
 {"name":"\"Jinrui wa Suitai Shimashita: Ningen-san no, Yousei-san Memo\"","genre":["Fantasy","Seinen"],"type":"ONA","episodes":"1","rating":"6.60","members":3083}
 {"index":{"_type":"anime"}}
@@ -9887,7 +9887,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Girls und Panzer: Shoukai Shimasu!","genre":["Military","School"],"type":"Special","episodes":"2","rating":"6.59","members":11042}
 {"index":{"_type":"anime"}}
-{"name":"Go! Go! Itsutsugo Land","genre":"School","type":"TV","episodes":"50","rating":"6.59","members":393}
+{"name":"Go! Go! Itsutsugo Land","genre":["School"],"type":"TV","episodes":"50","rating":"6.59","members":393}
 {"index":{"_type":"anime"}}
 {"name":"Hacka Doll The Animation","genre":["Comedy","Sci-Fi"],"type":"TV","episodes":"13","rating":"6.59","members":19502}
 {"index":{"_type":"anime"}}
@@ -9979,7 +9979,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Kanojo ga Flag wo Oraretara","genre":["Comedy","Harem","Romance","School"],"type":"TV","episodes":"13","rating":"6.58","members":74634}
 {"index":{"_type":"anime"}}
-{"name":"Kanokon Specials","genre":"Ecchi","type":"Special","episodes":"12","rating":"6.58","members":19232}
+{"name":"Kanokon Specials","genre":["Ecchi"],"type":"Special","episodes":"12","rating":"6.58","members":19232}
 {"index":{"_type":"anime"}}
 {"name":"Kikou Kantai Dairugger XV","genre":["Action","Adventure","Mecha","Sci-Fi","Shounen"],"type":"TV","episodes":"52","rating":"6.58","members":1121}
 {"index":{"_type":"anime"}}
@@ -10307,7 +10307,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Sengoku Collection","genre":["Fantasy","Parody","Samurai"],"type":"TV","episodes":"26","rating":"6.54","members":16287}
 {"index":{"_type":"anime"}}
-{"name":"Senran Kagura Specials","genre":"Ecchi","type":"Special","episodes":"6","rating":"6.54","members":8282}
+{"name":"Senran Kagura Specials","genre":["Ecchi"],"type":"Special","episodes":"6","rating":"6.54","members":8282}
 {"index":{"_type":"anime"}}
 {"name":"Shin-Men","genre":["Action","Comedy","Kids"],"type":"TV","episodes":"13","rating":"6.54","members":479}
 {"index":{"_type":"anime"}}
@@ -10883,7 +10883,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Yawara! Sore Yuke Koshinuke Kids!!","genre":["Action","Comedy","Drama","Martial Arts","Romance","Slice of Life","Sports"],"type":"Movie","episodes":"1","rating":"6.46","members":763}
 {"index":{"_type":"anime"}}
-{"name":"Youkai Ningen Bem","genre":"Horror","type":"TV","episodes":"26","rating":"6.46","members":440}
+{"name":"Youkai Ningen Bem","genre":["Horror"],"type":"TV","episodes":"26","rating":"6.46","members":440}
 {"index":{"_type":"anime"}}
 {"name":"Ai no Wakakusa Yama Monogatari","genre":["Comedy"],"type":"TV","episodes":"12","rating":"6.45","members":527}
 {"index":{"_type":"anime"}}
@@ -10939,7 +10939,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Scramble Wars: Tsuppashire! Genom Trophy Rally","genre":"Parody","type":"OVA","episodes":"1","rating":"6.45","members":558}
 {"index":{"_type":"anime"}}
-{"name":"Shoujo-tachi wa Kouya wo Mezasu","genre":"School","type":"TV","episodes":"12","rating":"6.45","members":60452}
+{"name":"Shoujo-tachi wa Kouya wo Mezasu","genre":["School"],"type":"TV","episodes":"12","rating":"6.45","members":60452}
 {"index":{"_type":"anime"}}
 {"name":"Tezuka Osamu ga Kieta?! 20 Seiki Saigo no Kaijiken","genre":"Mystery","type":"Special","episodes":"1","rating":"6.45","members":331}
 {"index":{"_type":"anime"}}
@@ -11133,7 +11133,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Sekkou Boys","genre":["Comedy","Music"],"type":"TV","episodes":"12","rating":"6.42","members":28303}
 {"index":{"_type":"anime"}}
-{"name":"Shoujo-tachi wa Kouya wo Mezasu OVA","genre":"School","type":"OVA","episodes":"1","rating":"6.42","members":7194}
+{"name":"Shoujo-tachi wa Kouya wo Mezasu OVA","genre":["School"],"type":"OVA","episodes":"1","rating":"6.42","members":7194}
 {"index":{"_type":"anime"}}
 {"name":"Sister Princess: Re Pure Character&#039;s","genre":["Drama","Romance"],"type":"Special","episodes":"12","rating":"6.42","members":544}
 {"index":{"_type":"anime"}}
@@ -11155,7 +11155,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Yumeyume","genre":["Music"],"type":"Music","episodes":"1","rating":"6.42","members":915}
 {"index":{"_type":"anime"}}
-{"name":"Yuusha Shirei Dagwon: Suishou no Hitomi no Shounen","genre":"Mecha","type":"OVA","episodes":"2","rating":"6.42","members":284}
+{"name":"Yuusha Shirei Dagwon: Suishou no Hitomi no Shounen","genre":["Mecha"],"type":"OVA","episodes":"2","rating":"6.42","members":284}
 {"index":{"_type":"anime"}}
 {"name":"Zettai Bouei Leviathan","genre":["Comedy","Fantasy","Magic"],"type":"TV","episodes":"13","rating":"6.42","members":18202}
 {"index":{"_type":"anime"}}
@@ -11303,7 +11303,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Gegege no Kitarou: Youkai Tokkyuu! Maboroshi no Kisha","genre":["Adventure","Comedy","Fantasy","Horror","Supernatural"],"type":"Movie","episodes":"1","rating":"6.39","members":241}
 {"index":{"_type":"anime"}}
-{"name":"H. P. Lovecraft&#039;s The Dunwich Horror and Other Stories","genre":"Horror","type":"OVA","episodes":"1","rating":"6.39","members":1704}
+{"name":"H. P. Lovecraft&#039;s The Dunwich Horror and Other Stories","genre":["Horror"],"type":"OVA","episodes":"1","rating":"6.39","members":1704}
 {"index":{"_type":"anime"}}
 {"name":"Jikuu Tantei Genshi-kun","genre":["Adventure","Comedy","Fantasy","Mystery","Sci-Fi","Shounen"],"type":"TV","episodes":"39","rating":"6.39","members":5541}
 {"index":{"_type":"anime"}}
@@ -11365,7 +11365,7 @@
 {"index":{"_type":"anime"}}
 {"name":"gdgd Fairies 2 Episode 0","genre":["Comedy","Fantasy"],"type":"Special","episodes":"1","rating":"6.38","members":367}
 {"index":{"_type":"anime"}}
-{"name":"Gendai Kibunroku Kaii Monogatari","genre":"Horror","type":"OVA","episodes":"1","rating":"6.38","members":704}
+{"name":"Gendai Kibunroku Kaii Monogatari","genre":["Horror"],"type":"OVA","episodes":"1","rating":"6.38","members":704}
 {"index":{"_type":"anime"}}
 {"name":"Honoo no Labyrinth","genre":["Adventure","Comedy","Ecchi","Samurai"],"type":"OVA","episodes":"2","rating":"6.38","members":5958}
 {"index":{"_type":"anime"}}
@@ -11443,7 +11443,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Kaitei Choutokkyuu: Marine Express","genre":["Action","Adventure","Comedy","Drama","Sci-Fi"],"type":"Special","episodes":"1","rating":"6.37","members":551}
 {"index":{"_type":"anime"}}
-{"name":"\"Kemeko Deluxe!: Izumi-chan, Fukenkou yo! (Kari)\"","genre":"Ecchi","type":"Special","episodes":"1","rating":"6.37","members":372}
+{"name":"\"Kemeko Deluxe!: Izumi-chan, Fukenkou yo! (Kari)\"","genre":["Ecchi"],"type":"Special","episodes":"1","rating":"6.37","members":372}
 {"index":{"_type":"anime"}}
 {"name":"Kick-Heart","genre":["Comedy","Romance","Sports"],"type":"Movie","episodes":"1","rating":"6.37","members":8007}
 {"index":{"_type":"anime"}}
@@ -11469,11 +11469,11 @@
 {"index":{"_type":"anime"}}
 {"name":"Time Bokan Series: Gyakuten Ippatsuman","genre":["Action","Comedy","Mecha","Sci-Fi"],"type":"TV","episodes":"58","rating":"6.37","members":334}
 {"index":{"_type":"anime"}}
-{"name":"Time Bokan Series: Itadakiman","genre":"Mecha","type":"TV","episodes":"20","rating":"6.37","members":298}
+{"name":"Time Bokan Series: Itadakiman","genre":["Mecha"],"type":"TV","episodes":"20","rating":"6.37","members":298}
 {"index":{"_type":"anime"}}
 {"name":"TO-Y","genre":["Drama","Music","Shounen"],"type":"OVA","episodes":"1","rating":"6.37","members":1275}
 {"index":{"_type":"anime"}}
-{"name":"Umezu Kazuo no Noroi","genre":"Horror","type":"OVA","episodes":"1","rating":"6.37","members":2361}
+{"name":"Umezu Kazuo no Noroi","genre":["Horror"],"type":"OVA","episodes":"1","rating":"6.37","members":2361}
 {"index":{"_type":"anime"}}
 {"name":"Yurumates wa?","genre":["Comedy","Seinen","Slice of Life"],"type":"OVA","episodes":"1","rating":"6.37","members":1747}
 {"index":{"_type":"anime"}}
@@ -11857,7 +11857,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Komori-san wa Kotowarenai!","genre":["Comedy","School","Slice of Life"],"type":"TV","episodes":"12","rating":"6.31","members":24377}
 {"index":{"_type":"anime"}}
-{"name":"Maken-Ki! Two Specials","genre":"Ecchi","type":"Special","episodes":"5","rating":"6.32","members":7858}
+{"name":"Maken-Ki! Two Specials","genre":["Ecchi"],"type":"Special","episodes":"5","rating":"6.32","members":7858}
 {"index":{"_type":"anime"}}
 {"name":"Mangchi","genre":["Adventure","Comedy","Fantasy"],"type":"Movie","episodes":"1","rating":"6.31","members":461}
 {"index":{"_type":"anime"}}
@@ -12225,7 +12225,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Pokemon: Slowking no Ichinichi","genre":["Fantasy","Kids"],"type":"Special","episodes":"1","rating":"6.25","members":6090}
 {"index":{"_type":"anime"}}
-{"name":"Queen&#039;s Blade: Rebellion Specials","genre":"Ecchi","type":"Special","episodes":"6","rating":"6.25","members":4989}
+{"name":"Queen&#039;s Blade: Rebellion Specials","genre":["Ecchi"],"type":"Special","episodes":"6","rating":"6.25","members":4989}
 {"index":{"_type":"anime"}}
 {"name":"Quiz Magic Academy: The Original Animation","genre":["Comedy","Fantasy","Magic","School"],"type":"OVA","episodes":"1","rating":"6.25","members":7367}
 {"index":{"_type":"anime"}}
@@ -12581,7 +12581,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Hokuto no Ken: Legend of Heroes","genre":["Action","Martial Arts"],"type":"Special","episodes":"1","rating":"6.18","members":1906}
 {"index":{"_type":"anime"}}
-{"name":"Lemon Angel (1988)","genre":"Ecchi","type":"TV","episodes":"9","rating":"6.18","members":567}
+{"name":"Lemon Angel (1988)","genre":["Ecchi"],"type":"TV","episodes":"9","rating":"6.18","members":567}
 {"index":{"_type":"anime"}}
 {"name":"Mahou Sensou","genre":["Action","Fantasy","Magic"],"type":"TV","episodes":"12","rating":"6.18","members":104192}
 {"index":{"_type":"anime"}}
@@ -12705,7 +12705,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Detective Conan vs. Wooo","genre":["Adventure","Comedy","Mystery","Police","Shounen"],"type":"ONA","episodes":"2","rating":"6.15","members":2587}
 {"index":{"_type":"anime"}}
-{"name":"Gunparade Orchestra OVA","genre":"Mecha","type":"OVA","episodes":"3","rating":"6.15","members":394}
+{"name":"Gunparade Orchestra OVA","genre":["Mecha"],"type":"OVA","episodes":"3","rating":"6.15","members":394}
 {"index":{"_type":"anime"}}
 {"name":"Hajimari no Boukensha-tachi: Legend of Crystania","genre":["Action","Adventure","Fantasy","Magic","Supernatural"],"type":"Movie","episodes":"1","rating":"6.15","members":2893}
 {"index":{"_type":"anime"}}
@@ -12949,7 +12949,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Rokushin Gattai GodMars (1982)","genre":["Action","Mecha","Sci-Fi","Space"],"type":"Movie","episodes":"1","rating":"6.10","members":304}
 {"index":{"_type":"anime"}}
-{"name":"Seikon no Qwaser Picture Drama","genre":"Ecchi","type":"Special","episodes":"16","rating":"6.10","members":8932}
+{"name":"Seikon no Qwaser Picture Drama","genre":["Ecchi"],"type":"Special","episodes":"16","rating":"6.10","members":8932}
 {"index":{"_type":"anime"}}
 {"name":"Show By Rock!!: Legend of Shingan Crimsonz","genre":["Comedy","Music"],"type":"ONA","episodes":"3","rating":"6.10","members":516}
 {"index":{"_type":"anime"}}
@@ -13001,7 +13001,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Tonari no 801-chan R","genre":["Comedy","Music"],"type":"OVA","episodes":"1","rating":"6.09","members":1947}
 {"index":{"_type":"anime"}}
-{"name":"Toshi Densetsu Monogatari Hikiko","genre":"Horror","type":"OVA","episodes":"1","rating":"6.09","members":2963}
+{"name":"Toshi Densetsu Monogatari Hikiko","genre":["Horror"],"type":"OVA","episodes":"1","rating":"6.09","members":2963}
 {"index":{"_type":"anime"}}
 {"name":"Ultraviolet: Code 044","genre":["Action","Sci-Fi"],"type":"TV","episodes":"12","rating":"6.09","members":3784}
 {"index":{"_type":"anime"}}
@@ -13055,7 +13055,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Antinotice","genre":["Music"],"type":"Music","episodes":"1","rating":"6.07","members":744}
 {"index":{"_type":"anime"}}
-{"name":"Cream Lemon: Lemon Angel","genre":"Ecchi","type":"TV","episodes":"37","rating":"6.07","members":1068}
+{"name":"Cream Lemon: Lemon Angel","genre":["Ecchi"],"type":"TV","episodes":"37","rating":"6.07","members":1068}
 {"index":{"_type":"anime"}}
 {"name":"Duel Masters Movie 1: Yami no Shiro no Maryuuou","genre":["Adventure","Kids"],"type":"Movie","episodes":"1","rating":"6.07","members":748}
 {"index":{"_type":"anime"}}
@@ -13109,7 +13109,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Inferno Cop Specials","genre":["Action","Comedy"],"type":"Special","episodes":"2","rating":"6.06","members":755}
 {"index":{"_type":"anime"}}
-{"name":"Juusou Kikou Dancougar Nova","genre":"Mecha","type":"TV","episodes":"12","rating":"6.06","members":3326}
+{"name":"Juusou Kikou Dancougar Nova","genre":["Mecha"],"type":"TV","episodes":"12","rating":"6.06","members":3326}
 {"index":{"_type":"anime"}}
 {"name":"Koi Hanabi","genre":["Fantasy","Music"],"type":"Music","episodes":"1","rating":"6.06","members":235}
 {"index":{"_type":"anime"}}
@@ -13163,7 +13163,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Kaitou Tenshi Twin Angel","genre":"Magic","type":"OVA","episodes":"2","rating":"6.05","members":3442}
 {"index":{"_type":"anime"}}
-{"name":"Lemon Angel (1988/II)","genre":"Ecchi","type":"TV","episodes":"8","rating":"6.05","members":462}
+{"name":"Lemon Angel (1988/II)","genre":["Ecchi"],"type":"TV","episodes":"8","rating":"6.05","members":462}
 {"index":{"_type":"anime"}}
 {"name":"Love♥Love?","genre":["Comedy","Ecchi","Harem","Romance"],"type":"TV","episodes":"9","rating":"6.05","members":15114}
 {"index":{"_type":"anime"}}
@@ -13493,7 +13493,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Oshare Kozou wa Hanamaru","genre":["Romance","Shoujo"],"type":"OVA","episodes":"1","rating":"5.96","members":327}
 {"index":{"_type":"anime"}}
-{"name":"Shukufuku no Campanella Specials","genre":"Ecchi","type":"Special","episodes":"6","rating":"5.96","members":2817}
+{"name":"Shukufuku no Campanella Specials","genre":["Ecchi"],"type":"Special","episodes":"6","rating":"5.96","members":2817}
 {"index":{"_type":"anime"}}
 {"name":"11eyes Picture Drama","genre":["Comedy"],"type":"Special","episodes":"13","rating":"5.95","members":2505}
 {"index":{"_type":"anime"}}
@@ -13589,7 +13589,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Norn9: Norn+Nonet Recap","genre":["Adventure","Fantasy","Josei","Romance"],"type":"Special","episodes":"1","rating":"5.93","members":2109}
 {"index":{"_type":"anime"}}
-{"name":"Youkai Ningen Bem (2006)","genre":"Horror","type":"TV","episodes":"26","rating":"5.93","members":1070}
+{"name":"Youkai Ningen Bem (2006)","genre":["Horror"],"type":"TV","episodes":"26","rating":"5.93","members":1070}
 {"index":{"_type":"anime"}}
 {"name":"Bara no Hana to Joe","genre":["Drama","Kids"],"type":"Movie","episodes":"1","rating":"5.92","members":306}
 {"index":{"_type":"anime"}}
@@ -13775,7 +13775,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Hakimono to Kasa no Monogatari","genre":["Music"],"type":"Music","episodes":"1","rating":"5.87","members":108}
 {"index":{"_type":"anime"}}
-{"name":"Inuki Kanako Zekkyou Collection: Gakkou ga Kowai!","genre":"Horror","type":"OVA","episodes":"1","rating":"5.87","members":418}
+{"name":"Inuki Kanako Zekkyou Collection: Gakkou ga Kowai!","genre":["Horror"],"type":"OVA","episodes":"1","rating":"5.87","members":418}
 {"index":{"_type":"anime"}}
 {"name":"Loups=Garous Pilot","genre":["Mystery","Sci-Fi","Thriller"],"type":"Special","episodes":"1","rating":"5.87","members":622}
 {"index":{"_type":"anime"}}
@@ -13883,7 +13883,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Soul Link Picture Drama","genre":["Romance","Sci-Fi"],"type":"Special","episodes":"3","rating":"5.84","members":603}
 {"index":{"_type":"anime"}}
-{"name":"AIKa: Special Trial","genre":"Ecchi","type":"Special","episodes":"1","rating":"5.83","members":4116}
+{"name":"AIKa: Special Trial","genre":["Ecchi"],"type":"Special","episodes":"1","rating":"5.83","members":4116}
 {"index":{"_type":"anime"}}
 {"name":"Akane Maniax","genre":["Comedy","Mecha","Romance"],"type":"OVA","episodes":"3","rating":"5.83","members":13988}
 {"index":{"_type":"anime"}}
@@ -14017,7 +14017,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Ai City","genre":["Action","Sci-Fi","Super Power"],"type":"Movie","episodes":"1","rating":"5.79","members":1513}
 {"index":{"_type":"anime"}}
-{"name":"AIKa Zero Picture Drama","genre":"Ecchi","type":"Special","episodes":"3","rating":"5.79","members":2554}
+{"name":"AIKa Zero Picture Drama","genre":["Ecchi"],"type":"Special","episodes":"3","rating":"5.79","members":2554}
 {"index":{"_type":"anime"}}
 {"name":"Ano Koro no Namida wa","genre":["Music","Slice of Life"],"type":"Music","episodes":"1","rating":"5.79","members":401}
 {"index":{"_type":"anime"}}
@@ -14231,7 +14231,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Cosmos Pink Shock","genre":["Comedy","Parody","Sci-Fi","Space"],"type":"OVA","episodes":"1","rating":"5.71","members":981}
 {"index":{"_type":"anime"}}
-{"name":"Gyo","genre":"Horror","type":"OVA","episodes":"1","rating":"5.71","members":27005}
+{"name":"Gyo","genre":["Horror"],"type":"OVA","episodes":"1","rating":"5.71","members":27005}
 {"index":{"_type":"anime"}}
 {"name":"Kanojo ga Kanji wo Suki na Riyuu.","genre":["School","Slice of Life"],"type":"ONA","episodes":"2","rating":"5.71","members":449}
 {"index":{"_type":"anime"}}
@@ -14289,7 +14289,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Pink Mizu Dorobou Ame Dorobou","genre":["Adventure","Comedy","Fantasy","Shounen"],"type":"Movie","episodes":"1","rating":"5.70","members":339}
 {"index":{"_type":"anime"}}
-{"name":"Transformers: Robot Masters","genre":"Mecha","type":"Special","episodes":"2","rating":"5.69","members":485}
+{"name":"Transformers: Robot Masters","genre":["Mecha"],"type":"Special","episodes":"2","rating":"5.69","members":485}
 {"index":{"_type":"anime"}}
 {"name":"Yakusai Kochou","genre":["Comedy","Ecchi","Supernatural"],"type":"OVA","episodes":"1","rating":"5.69","members":1025}
 {"index":{"_type":"anime"}}
@@ -14361,7 +14361,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Tokyo Juushouden","genre":["Action","Adventure","Shounen","Supernatural"],"type":"OVA","episodes":"3","rating":"5.67","members":1001}
 {"index":{"_type":"anime"}}
-{"name":"Vanquished Queens Specials","genre":"Ecchi","type":"Special","episodes":"4","rating":"5.67","members":2670}
+{"name":"Vanquished Queens Specials","genre":["Ecchi"],"type":"Special","episodes":"4","rating":"5.67","members":2670}
 {"index":{"_type":"anime"}}
 {"name":"Backkom: Jung-gug Gijeogwi","genre":["Comedy","Kids"],"type":"Special","episodes":"1","rating":"5.66","members":117}
 {"index":{"_type":"anime"}}
@@ -14465,7 +14465,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Megami Tengoku","genre":["Adventure","Ecchi","Fantasy"],"type":"OVA","episodes":"2","rating":"5.62","members":952}
 {"index":{"_type":"anime"}}
-{"name":"RS Keikaku: Rebirth Storage","genre":"Mecha","type":"Special","episodes":"1","rating":"5.62","members":4648}
+{"name":"RS Keikaku: Rebirth Storage","genre":["Mecha"],"type":"Special","episodes":"1","rating":"5.62","members":4648}
 {"index":{"_type":"anime"}}
 {"name":"Sono Mukou no Mukougawa","genre":["Music"],"type":"Music","episodes":"1","rating":"5.62","members":267}
 {"index":{"_type":"anime"}}
@@ -14643,7 +14643,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Space Travelers The Animation","genre":["Sci-Fi","Space"],"type":"OVA","episodes":"1","rating":"5.55","members":358}
 {"index":{"_type":"anime"}}
-{"name":"Television","genre":"Horror","type":"ONA","episodes":"1","rating":"5.55","members":322}
+{"name":"Television","genre":["Horror"],"type":"ONA","episodes":"1","rating":"5.55","members":322}
 {"index":{"_type":"anime"}}
 {"name":"\"Watashitachi, Luck Logic-bu!\"","genre":["Comedy","School"],"type":"TV","episodes":"12","rating":"5.55","members":1417}
 {"index":{"_type":"anime"}}
@@ -15075,7 +15075,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Hyper-Psychic Geo Garaga","genre":["Action","Adventure","Sci-Fi"],"type":"Movie","episodes":"1","rating":"5.33","members":674}
 {"index":{"_type":"anime"}}
-{"name":"Kowabon","genre":"Horror","type":"TV","episodes":"13","rating":"5.33","members":21026}
+{"name":"Kowabon","genre":["Horror"],"type":"TV","episodes":"13","rating":"5.33","members":21026}
 {"index":{"_type":"anime"}}
 {"name":"Peeping Life: Shinkon-chan Kansai ni Irasshai","genre":["Comedy","Slice of Life"],"type":"ONA","episodes":"1","rating":"5.33","members":197}
 {"index":{"_type":"anime"}}
@@ -15193,7 +15193,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Sora no Momotarou","genre":["Adventure","Comedy","Military"],"type":"Movie","episodes":"1","rating":"5.26","members":525}
 {"index":{"_type":"anime"}}
-{"name":"TANK S.W.A.T. 01","genre":"Mecha","type":"OVA","episodes":"1","rating":"5.26","members":1332}
+{"name":"TANK S.W.A.T. 01","genre":["Mecha"],"type":"OVA","episodes":"1","rating":"5.26","members":1332}
 {"index":{"_type":"anime"}}
 {"name":"The New A-Class.: Next Stage with YOU","genre":["Cars","Music"],"type":"ONA","episodes":"1","rating":"5.24","members":342}
 {"index":{"_type":"anime"}}
@@ -15683,7 +15683,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Rui no Masaiban","genre":["Comedy"],"type":"ONA","episodes":"1","rating":"4.89","members":251}
 {"index":{"_type":"anime"}}
-{"name":"Ao Oni The Animation","genre":"Horror","type":"TV","episodes":"Unknown","rating":"4.88","members":7413}
+{"name":"Ao Oni The Animation","genre":["Horror"],"type":"TV","episodes":"Unknown","rating":"4.88","members":7413}
 {"index":{"_type":"anime"}}
 {"name":"Canary","genre":["Fantasy","Music","Romance","School"],"type":"OVA","episodes":"1","rating":"4.88","members":1212}
 {"index":{"_type":"anime"}}
@@ -15827,7 +15827,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Ga no Iru Tokoro","genre":["Dementia"],"type":"Movie","episodes":"1","rating":"4.68","members":343}
 {"index":{"_type":"anime"}}
-{"name":"Bloody Date","genre":"Horror","type":"ONA","episodes":"1","rating":"4.66","members":1891}
+{"name":"Bloody Date","genre":["Horror"],"type":"ONA","episodes":"1","rating":"4.66","members":1891}
 {"index":{"_type":"anime"}}
 {"name":"Doubutsu Sumo Taikai","genre":["Action"],"type":"Movie","episodes":"1","rating":"4.67","members":585}
 {"index":{"_type":"anime"}}
@@ -15849,7 +15849,7 @@
 {"index":{"_type":"anime"}}
 {"name":"MILPOM★","genre":["Comedy","Shoujo"],"type":"ONA","episodes":"Unknown","rating":"4.62","members":434}
 {"index":{"_type":"anime"}}
-{"name":"Osaru no Sankichi: Totsugeki-tai","genre":"Military","type":"Movie","episodes":"1","rating":"4.62","members":489}
+{"name":"Osaru no Sankichi: Totsugeki-tai","genre":["Military"],"type":"Movie","episodes":"1","rating":"4.62","members":489}
 {"index":{"_type":"anime"}}
 {"name":"Under the Dog: Anthea-chan","genre":["Action","Comedy","Parody"],"type":"ONA","episodes":"1","rating":"4.62","members":2390}
 {"index":{"_type":"anime"}}
@@ -15883,7 +15883,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Bishoujo Yuugi Unit Crane Game Girls","genre":["Comedy","Game","Space"],"type":"TV","episodes":"13","rating":"4.54","members":4673}
 {"index":{"_type":"anime"}}
-{"name":"Issho ni Sleeping: Sleeping with Hinako","genre":"Ecchi","type":"OVA","episodes":"1","rating":"4.54","members":10703}
+{"name":"Issho ni Sleeping: Sleeping with Hinako","genre":["Ecchi"],"type":"OVA","episodes":"1","rating":"4.54","members":10703}
 {"index":{"_type":"anime"}}
 {"name":"Shinsatsushitsu","genre":["Dementia","Horror"],"type":"Movie","episodes":"1","rating":"4.54","members":527}
 {"index":{"_type":"anime"}}
@@ -15939,7 +15939,7 @@
 {"index":{"_type":"anime"}}
 {"name":"3D Onara Gorou ga Dance Dance Dance!!","genre":["Comedy","Music"],"type":"Music","episodes":"1","rating":"4.39","members":624}
 {"index":{"_type":"anime"}}
-{"name":"Osaru no Sankichi: Boukuusen","genre":"Military","type":"Movie","episodes":"1","rating":"4.39","members":525}
+{"name":"Osaru no Sankichi: Boukuusen","genre":["Military"],"type":"Movie","episodes":"1","rating":"4.39","members":525}
 {"index":{"_type":"anime"}}
 {"name":"Aya Hito Shiki to Iu na no Ishi Hata","genre":["Dementia"],"type":"ONA","episodes":"1","rating":"4.38","members":177}
 {"index":{"_type":"anime"}}
@@ -16041,7 +16041,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Shigeru","genre":["Comedy","Dementia"],"type":"ONA","episodes":"1","rating":"3.86","members":411}
 {"index":{"_type":"anime"}}
-{"name":"C.L.A.Y.","genre":"Horror","type":"ONA","episodes":"1","rating":"3.84","members":1104}
+{"name":"C.L.A.Y.","genre":["Horror"],"type":"ONA","episodes":"1","rating":"3.84","members":1104}
 {"index":{"_type":"anime"}}
 {"name":"Aos","genre":["Dementia","Fantasy"],"type":"Movie","episodes":"1","rating":"3.83","members":1080}
 {"index":{"_type":"anime"}}
@@ -16069,7 +16069,7 @@
 {"index":{"_type":"anime"}}
 {"name":"CCW: Crazy Clay Wrestling","genre":"Sports","type":"ONA","episodes":"1","rating":"3.68","members":1030}
 {"index":{"_type":"anime"}}
-{"name":"Within the Bloody Woods","genre":"Horror","type":"ONA","episodes":"2","rating":"3.65","members":1099}
+{"name":"Within the Bloody Woods","genre":["Horror"],"type":"ONA","episodes":"2","rating":"3.65","members":1099}
 {"index":{"_type":"anime"}}
 {"name":"Pop","genre":["Comedy"],"type":"Movie","episodes":"1","rating":"3.63","members":508}
 {"index":{"_type":"anime"}}
@@ -16093,7 +16093,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Nendo no Tatakai","genre":["Comedy","Fantasy"],"type":"ONA","episodes":"1","rating":"3.36","members":1174}
 {"index":{"_type":"anime"}}
-{"name":"Love Bites","genre":"Horror","type":"ONA","episodes":"1","rating":"3.33","members":537}
+{"name":"Love Bites","genre":["Horror"],"type":"ONA","episodes":"1","rating":"3.33","members":537}
 {"index":{"_type":"anime"}}
 {"name":"Fetish Doll","genre":["Dementia"],"type":"Movie","episodes":"1","rating":"3.32","members":654}
 {"index":{"_type":"anime"}}
@@ -16107,7 +16107,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Ningen Doubutsuen","genre":["Dementia"],"type":"Movie","episodes":"1","rating":"2.78","members":1893}
 {"index":{"_type":"anime"}}
-{"name":"Kokuhaku","genre":"Horror","type":"ONA","episodes":"1","rating":"2.67","members":816}
+{"name":"Kokuhaku","genre":["Horror"],"type":"ONA","episodes":"1","rating":"2.67","members":816}
 {"index":{"_type":"anime"}}
 {"name":"Nami","genre":["Dementia"],"type":"Movie","episodes":"1","rating":"2.67","members":1817}
 {"index":{"_type":"anime"}}
@@ -16505,7 +16505,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Bokura Mangaka: Tokiwasou Monogatari","genre":["Comedy","Slice of Life"],"type":"Special","episodes":"1","rating":"7.31","members":137}
 {"index":{"_type":"anime"}}
-{"name":"Bokura no Saibanin Monogatari","genre":"School","type":"ONA","episodes":"1","rating":"4.93","members":214}
+{"name":"Bokura no Saibanin Monogatari","genre":["School"],"type":"ONA","episodes":"1","rating":"4.93","members":214}
 {"index":{"_type":"anime"}}
 {"name":"Bokutachi no Peace River","genre":["Adventure","Drama","Kids","Supernatural"],"type":"OVA","episodes":"1","rating":"5.38","members":82}
 {"index":{"_type":"anime"}}
@@ -16735,7 +16735,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Chotto Ugoku!? &quot;Futeneko&quot;","genre":["Comedy"],"type":"OVA","episodes":"1","rating":"6.00","members":17}
 {"index":{"_type":"anime"}}
-{"name":"Chou Kidougai-ku: Kashiwa-no-Ha","genre":"Mecha","type":"ONA","episodes":"3","rating":"4.86","members":475}
+{"name":"Chou Kidougai-ku: Kashiwa-no-Ha","genre":["Mecha"],"type":"ONA","episodes":"3","rating":"4.86","members":475}
 {"index":{"_type":"anime"}}
 {"name":"Chou Kousoku Galvion","genre":["Action","Mecha","Military","Police"],"type":"TV","episodes":"22","rating":"6.32","members":364}
 {"index":{"_type":"anime"}}
@@ -16817,7 +16817,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Crayon Shin-chan Movie 24: Bakusui! Yumemi World Dai Totsugeki","genre":["Comedy","Kids","Shounen"],"type":"Movie","episodes":"1","rating":"7.30","members":320}
 {"index":{"_type":"anime"}}
-{"name":"Crazy Monkey","genre":"Ecchi","type":"Movie","episodes":"1","rating":"4.81","members":92}
+{"name":"Crazy Monkey","genre":["Ecchi"],"type":"Movie","episodes":"1","rating":"4.81","members":92}
 {"index":{"_type":"anime"}}
 {"name":"Curly","genre":["Comedy"],"type":"ONA","episodes":"1","rating":"4.70","members":54}
 {"index":{"_type":"anime"}}
@@ -16869,7 +16869,7 @@
 {"index":{"_type":"anime"}}
 {"name":"David and Goliath","genre":["Adventure","Historical","Kids"],"type":"Movie","episodes":"1","rating":"4.50","members":80}
 {"index":{"_type":"anime"}}
-{"name":"Dead World","genre":"Horror","type":"ONA","episodes":"Unknown","rating":"3.89","members":302}
+{"name":"Dead World","genre":["Horror"],"type":"ONA","episodes":"Unknown","rating":"3.89","members":302}
 {"index":{"_type":"anime"}}
 {"name":"Deban Desu Yo! Onigirizu","genre":["Comedy"],"type":"TV","episodes":"6","rating":"4.00","members":163}
 {"index":{"_type":"anime"}}
@@ -17091,7 +17091,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Forestry","genre":["Comedy"],"type":"Special","episodes":"1","rating":"4.45","members":124}
 {"index":{"_type":"anime"}}
-{"name":"Form of Stress","genre":"Mecha","type":"Movie","episodes":"1","rating":"3.75","members":44}
+{"name":"Form of Stress","genre":["Mecha"],"type":"Movie","episodes":"1","rating":"3.75","members":44}
 {"index":{"_type":"anime"}}
 {"name":"Forza! Hidemaru","genre":"Sports","type":"TV","episodes":"26","rating":"6.44","members":102}
 {"index":{"_type":"anime"}}
@@ -17099,7 +17099,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Fox Wood Monogatari","genre":["Adventure","Kids"],"type":"OVA","episodes":"3","rating":"7.44","members":67}
 {"index":{"_type":"anime"}}
-{"name":"Frame Arms: A Violent Struggle","genre":"Mecha","type":"OVA","episodes":"1","rating":"4.22","members":234}
+{"name":"Frame Arms: A Violent Struggle","genre":["Mecha"],"type":"OVA","episodes":"1","rating":"4.22","members":234}
 {"index":{"_type":"anime"}}
 {"name":"From Osaka with Cheer!","genre":["Slice of Life"],"type":"ONA","episodes":"4","rating":"4.33","members":109}
 {"index":{"_type":"anime"}}
@@ -17247,7 +17247,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Gatapishi","genre":["Comedy","Slice of Life"],"type":"TV","episodes":"199","rating":"7.07","members":102}
 {"index":{"_type":"anime"}}
-{"name":"Gattai Robot Atranger","genre":"Mecha","type":"OVA","episodes":"1","rating":"4.77","members":115}
+{"name":"Gattai Robot Atranger","genre":["Mecha"],"type":"OVA","episodes":"1","rating":"4.77","members":115}
 {"index":{"_type":"anime"}}
 {"name":"Gaza: Changing the World","genre":["Drama","Supernatural"],"type":"ONA","episodes":"1","rating":"5.14","members":94}
 {"index":{"_type":"anime"}}
@@ -17767,7 +17767,7 @@
 {"index":{"_type":"anime"}}
 {"name":"himitsukesshatakanotsume.jp Specials","genre":["Comedy","Parody"],"type":"Special","episodes":"2","rating":"6.00","members":47}
 {"index":{"_type":"anime"}}
-{"name":"Hino Hideshi Toukaidou Yotsuya Kaidan","genre":"Horror","type":"OVA","episodes":"1","rating":"6.17","members":213}
+{"name":"Hino Hideshi Toukaidou Yotsuya Kaidan","genre":["Horror"],"type":"OVA","episodes":"1","rating":"6.17","members":213}
 {"index":{"_type":"anime"}}
 {"name":"Hipira-kun Special","genre":["Comedy","Fantasy","Kids","Supernatural","Vampire"],"type":"Special","episodes":"1","rating":"4.78","members":178}
 {"index":{"_type":"anime"}}
@@ -18197,7 +18197,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Kakkun Cafe","genre":["Comedy","Parody","Slice of Life"],"type":"Movie","episodes":"1","rating":"5.86","members":54}
 {"index":{"_type":"anime"}}
-{"name":"Kakuchou Shoujo-Kei Trinary","genre":"Mecha","type":"ONA","episodes":"Unknown","rating":"7.50","members":401}
+{"name":"Kakuchou Shoujo-Kei Trinary","genre":["Mecha"],"type":"ONA","episodes":"Unknown","rating":"7.50","members":401}
 {"index":{"_type":"anime"}}
 {"name":"Kakusensou","genre":["Drama","Historical","Kids"],"type":"OVA","episodes":"1","rating":"8.50","members":34}
 {"index":{"_type":"anime"}}
@@ -18255,7 +18255,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Kanagatari. Kanabakari.: Kanadian Families","genre":["Slice of Life"],"type":"OVA","episodes":"1","rating":"6.36","members":209}
 {"index":{"_type":"anime"}}
-{"name":"Kanai","genre":"Mecha","type":"ONA","episodes":"1","rating":"4.12","members":132}
+{"name":"Kanai","genre":["Mecha"],"type":"ONA","episodes":"1","rating":"4.12","members":132}
 {"index":{"_type":"anime"}}
 {"name":"Kanashiki Mongoose","genre":["Kids","Music"],"type":"Music","episodes":"1","rating":"3.36","members":90}
 {"index":{"_type":"anime"}}
@@ -19215,7 +19215,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Monchhichiisu","genre":["Kids"],"type":"TV","episodes":"20","rating":"4.80","members":39}
 {"index":{"_type":"anime"}}
-{"name":"Money Wars: Nerawareta Waterfront Keikaku","genre":"Seinen","type":"OVA","episodes":"1","rating":"5.05","members":130}
+{"name":"Money Wars: Nerawareta Waterfront Keikaku","genre":["Seinen"],"type":"OVA","episodes":"1","rating":"5.05","members":130}
 {"index":{"_type":"anime"}}
 {"name":"MonHun Nikki Girigiri Airou Mura: Airou Kiki Ippatsu Specials","genre":["Action","Comedy"],"type":"Special","episodes":"2","rating":"6.08","members":227}
 {"index":{"_type":"anime"}}
@@ -19793,7 +19793,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Otoko wa Tsurai yo: Torajirou Wasurenagusa","genre":["Comedy","Romance"],"type":"Special","episodes":"1","rating":"5.78","members":78}
 {"index":{"_type":"anime"}}
-{"name":"Otokogi","genre":"Seinen","type":"OVA","episodes":"3","rating":"5.83","members":88}
+{"name":"Otokogi","genre":["Seinen"],"type":"OVA","episodes":"3","rating":"5.83","members":88}
 {"index":{"_type":"anime"}}
 {"name":"Otona no Ikkyuu-san","genre":["Comedy","Historical"],"type":"Special","episodes":"3","rating":"5.00","members":67}
 {"index":{"_type":"anime"}}
@@ -20163,7 +20163,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Robot Taekwon V 3tan! Sujung Teukgongdae","genre":["Action","Mecha","Sci-Fi"],"type":"Movie","episodes":"1","rating":"4.81","members":86}
 {"index":{"_type":"anime"}}
-{"name":"Robot Taekwon V wa Hwanggeum Nalgae","genre":"Mecha","type":"Movie","episodes":"1","rating":"4.93","members":91}
+{"name":"Robot Taekwon V wa Hwanggeum Nalgae","genre":["Mecha"],"type":"Movie","episodes":"1","rating":"4.93","members":91}
 {"index":{"_type":"anime"}}
 {"name":"Robot Taekwon V: Wooju Jakjeon","genre":["Action","Mecha","Sci-Fi"],"type":"Movie","episodes":"1","rating":"4.88","members":88}
 {"index":{"_type":"anime"}}
@@ -20451,7 +20451,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Shin Obake no Q-tarou","genre":["Comedy","School","Slice of Life","Supernatural"],"type":"TV","episodes":"70","rating":"5.78","members":124}
 {"index":{"_type":"anime"}}
-{"name":"Shin Otokogi","genre":"Seinen","type":"OVA","episodes":"2","rating":"7.08","members":85}
+{"name":"Shin Otokogi","genre":["Seinen"],"type":"OVA","episodes":"2","rating":"7.08","members":85}
 {"index":{"_type":"anime"}}
 {"name":"Shin Pro Golfer Saru","genre":["Kids","Sports"],"type":"TV","episodes":"10","rating":"7.00","members":69}
 {"index":{"_type":"anime"}}
@@ -20779,7 +20779,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Souiu Megane","genre":["Dementia"],"type":"Movie","episodes":"1","rating":"3.50","members":65}
 {"index":{"_type":"anime"}}
-{"name":"Soukou Kyojin Z-Knight","genre":"Mecha","type":"OVA","episodes":"1","rating":"5.13","members":110}
+{"name":"Soukou Kyojin Z-Knight","genre":["Mecha"],"type":"OVA","episodes":"1","rating":"5.13","members":110}
 {"index":{"_type":"anime"}}
 {"name":"Soumubu Sououka Yamaguchi Roppeita: Saibanin Project Hajimemasu!","genre":["Slice of Life"],"type":"OVA","episodes":"1","rating":"4.93","members":52}
 {"index":{"_type":"anime"}}
@@ -21123,7 +21123,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Tobiuo no Boy wa Byouki Desu","genre":["Fantasy","Historical","Kids"],"type":"Movie","episodes":"1","rating":"7.75","members":41}
 {"index":{"_type":"anime"}}
-{"name":"Toilet no Hanako-san","genre":"Horror","type":"Movie","episodes":"1","rating":"5.87","members":224}
+{"name":"Toilet no Hanako-san","genre":["Horror"],"type":"Movie","episodes":"1","rating":"5.87","members":224}
 {"index":{"_type":"anime"}}
 {"name":"Tokai no Butchy","genre":["Music","Romance"],"type":"Movie","episodes":"1","rating":"6.36","members":64}
 {"index":{"_type":"anime"}}
@@ -21297,7 +21297,7 @@
 {"index":{"_type":"anime"}}
 {"name":"Uli Chingu Kkachi","genre":["School","Slice of Life"],"type":"Movie","episodes":"1","rating":"4.91","members":42}
 {"index":{"_type":"anime"}}
-{"name":"Uli Sai Jjang-Iya","genre":"School","type":"Movie","episodes":"1","rating":"5.00","members":36}
+{"name":"Uli Sai Jjang-Iya","genre":["School"],"type":"Movie","episodes":"1","rating":"5.00","members":36}
 {"index":{"_type":"anime"}}
 {"name":"Ultra B","genre":["Comedy","Super Power"],"type":"TV","episodes":"119","rating":"5.52","members":102}
 {"index":{"_type":"anime"}}
@@ -21511,7 +21511,7 @@
 {"index":{"_type":"anime"}}
 {"name":"X Maiden: Izakaya Tamaki","genre":["Comedy"],"type":"ONA","episodes":"7","rating":"4.21","members":100}
 {"index":{"_type":"anime"}}
-{"name":"Xabungle Graffiti","genre":"Mecha","type":"Movie","episodes":"1","rating":"5.33","members":248}
+{"name":"Xabungle Graffiti","genre":["Mecha"],"type":"Movie","episodes":"1","rating":"5.33","members":248}
 {"index":{"_type":"anime"}}
 {"name":"Xevious","genre":["Action","Adventure","Sci-Fi","Space"],"type":"Movie","episodes":"1","rating":"5.73","members":184}
 {"index":{"_type":"anime"}}

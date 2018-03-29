@@ -29,7 +29,7 @@ func main() {
 	}
 
 	// search
-	termQuery := elastic.NewTermQuery("name", "berserk")
+	termQuery := elastic.NewTermQuery("name", "full")
 	searchResult, err := client.Search().
 		Index("cartoon").
 		Query(termQuery).
@@ -44,8 +44,6 @@ func main() {
 	if searchResult.Hits.TotalHits > 0 {
 		fmt.Printf("Found a total of %d results\n", searchResult.Hits.TotalHits)
 		for _, hit := range searchResult.Hits.Hits {
-			// hit.Index contains the name of the index
-
 			// Deserialize hit.Source into a AnimeDocument (could also be just a map[string]interface{}).
 			var a AnimeDocument
 			err := json.Unmarshal(*hit.Source, &a)
