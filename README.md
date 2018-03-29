@@ -1,10 +1,8 @@
 
 ## Pull/run image
 ```shell
-docker run -d -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:5.6.1
+docker run -d -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:6.2.3
 ```
-
-may need to add -u elastic:changeme or add xpack.security.enabled: false in running container (elasticsearch-yml) and do a docker restart on container
 
 ## Create index
 ```shell
