@@ -33,8 +33,8 @@ type AnimeDocument struct {
 }
 
 type AnimeSearchResponse struct {
-	Time      string          `json:"time"`
-	Hits      string          `json:"hits"`
+	Time      int64           `json:"time"`
+	Hits      int64           `json:"hits"`
 	Documents []AnimeDocument `json:"documents"`
 }
 
@@ -54,28 +54,42 @@ func searchElastic(w http.ResponseWriter, r *http.Request) {
 		Pretty(true).
 		Do(context.Background())
 	if err != nil {
-		panic(err)
+		http.Error(w, "Server error", http.StatusInternalServerError)
+		return
 	}
-	fmt.Printf("Query took %d milliseconds\n", searchResult.TookInMillis)
+	log.Printf("Query took %d milliseconds\n", searchResult.TookInMillis)
 
 	// iterate over search result
+	var res AnimeSearchResponse
+	var docs []AnimeDocument
 	if searchResult.Hits.TotalHits > 0 {
-		fmt.Printf("Found a total of %d results\n", searchResult.Hits.TotalHits)
+		log.Printf("Found a total of %d results\n", searchResult.Hits.TotalHits)
 		for _, hit := range searchResult.Hits.Hits {
 			// Deserialize hit.Source into a AnimeDocument (could also be just a map[string]interface{}).
 			var a AnimeDocument
 			err := json.Unmarshal(*hit.Source, &a)
 			if err != nil {
-				fmt.Println("Deserialization failed")
+				http.Error(w, "Could not deserialize json", http.StatusInternalServerError)
 			}
-
-			fmt.Printf("Result --> %s: %s %s %s %s\n", a.Name, a.Genre, a.Type, a.Episodes, a.Rating)
+			docs = append(docs, a)
+		}
+		res = AnimeSearchResponse{
+			Time:      searchResult.TookInMillis,
+			Hits:      searchResult.Hits.TotalHits,
+			Documents: docs,
 		}
 	} else {
-		// No hits
-		fmt.Print("Found no results\n")
+		res = AnimeSearchResponse{
+			Time: searchResult.TookInMillis,
+			Hits: searchResult.Hits.TotalHits,
+		}
 	}
+	jsonResp, err := json.Marshal(res)
+	if err != nil {
+		http.Error(w, "Could not serialize json", http.StatusInternalServerError)
 
+	}
+	fmt.Fprintln(w, string(jsonResp))
 }
 
 func main() {
@@ -104,7 +118,7 @@ func main() {
 		}
 	}()
 
-	// gracefull shutdown at SIGINT
+	// graceful shutdown at SIGINT
 	c := make(chan os.Signal, 1)
 	signal.Notify(c, os.Interrupt)
 	<-c
