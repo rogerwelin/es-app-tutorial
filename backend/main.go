@@ -4,14 +4,24 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"log"
+	"net/http"
+	"os"
+	"os/signal"
+	"time"
 
+	"github.com/gorilla/mux"
 	"github.com/olivere/elastic"
 )
 
+var (
+	wait   time.Duration
+	client *elastic.Client
+)
+
 const (
-	elasticIndexName = "cartoon"
-	elasticTypeName  = "cartoon"
-	elasticURL       = "http://localhost:9200"
+	elasticIndex = "cartoon"
+	elasticURL   = "http://localhost:9200"
 )
 
 type AnimeDocument struct {
@@ -22,16 +32,24 @@ type AnimeDocument struct {
 	Rating   string   `json:"rating"`
 }
 
-func main() {
-	client, err := elastic.NewClient()
-	if err != nil {
-		panic(err)
-	}
+type AnimeSearchResponse struct {
+	Time      string          `json:"time"`
+	Hits      string          `json:"hits"`
+	Documents []AnimeDocument `json:"documents"`
+}
+
+func rootHandler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "home\n")
+}
+
+func searchElastic(w http.ResponseWriter, r *http.Request) {
+	vars := mux.Vars(r)
+	searchQuery := vars["searchTerm"]
 
 	// search
-	termQuery := elastic.NewTermQuery("name", "full")
+	termQuery := elastic.NewTermQuery("name", searchQuery)
 	searchResult, err := client.Search().
-		Index("cartoon").
+		Index(elasticIndex).
 		Query(termQuery).
 		Pretty(true).
 		Do(context.Background())
@@ -58,4 +76,42 @@ func main() {
 		fmt.Print("Found no results\n")
 	}
 
+}
+
+func main() {
+	var err error
+	client, err = elastic.NewClient(elastic.SetURL(elasticURL))
+	if err != nil {
+		panic(err)
+	}
+
+	wait = time.Second * 5
+
+	router := mux.NewRouter()
+	router.HandleFunc("/", rootHandler).Methods("GET")
+	router.HandleFunc("/search/{searchTerm}", searchElastic).Methods("GET")
+
+	srv := &http.Server{
+		Addr:         "0.0.0.0:4000",
+		WriteTimeout: wait,
+		ReadTimeout:  wait,
+		Handler:      router,
+	}
+
+	go func() {
+		if err := srv.ListenAndServe(); err != nil {
+			log.Println(err)
+		}
+	}()
+
+	// gracefull shutdown at SIGINT
+	c := make(chan os.Signal, 1)
+	signal.Notify(c, os.Interrupt)
+	<-c
+	ctx, cancel := context.WithTimeout(context.Background(), wait)
+	defer cancel()
+	srv.Shutdown(ctx)
+
+	log.Println("Shutting down server...")
+	os.Exit(0)
 }
