@@ -43,6 +43,8 @@ func rootHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func searchElastic(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Access-Control-Allow-Origin", "*")
+
 	vars := mux.Vars(r)
 	searchQuery := vars["searchTerm"]
 

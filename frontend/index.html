@@ -35,37 +35,6 @@
     </div>
 
 
-    <!-- Bottom Pagination Card -->
-    <div class="mui-panel pagination-panel">
-        <button class="mui-btn mui-btn--flat" v-on:click="prevResultsPage()">Prev Page</button>
-        <button class="mui-btn mui-btn--flat" v-on:click="nextResultsPage()">Next Page</button>
-    </div>
-
-    <!-- Book Paragraphs Modal Window -->
-    <div v-if="selectedParagraph" ref="bookModal" class="book-modal">
-      <div class="paragraphs-container">
-        <!-- Book Section Metadata -->
-        <div class="title-row">
-          <div class="mui--text-display2 all-caps">{{ selectedParagraph.name }}</div>
-          <div class="mui--text-display1">{{ selectedParagraph.name }}</div>
-        </div>
-        <br>
-        <div class="mui-divider"></div>
-        <div class="mui--text-subhead locations-label">Locations {{ bookOffset - 5 }} to {{ bookOffset + 5 }}</div>
-        <div class="mui-divider"></div>
-        <br>
-
-        <!-- Book Paragraphs -->
-        <div v-for="paragraph in paragraphs">
-          <div v-if="paragraph._source.location === selectedParagraph._source.location" class="mui--text-body2">
-            <strong>{{ paragraph.name }}</strong>
-          </div>
-          <div v-else class="mui--text-body1">
-            {{ paragraph.name }}
-          </div>
-          <br>
-        </div>
-      </div>
 
       <!-- Book Pagination Footer -->
       <div class="modal-footer">
