@@ -48,6 +48,7 @@ func searchElastic(w http.ResponseWriter, r *http.Request) {
 
 	// search
 	termQuery := elastic.NewTermQuery("name", searchQuery)
+
 	searchResult, err := client.Search().
 		Index(elasticIndex).
 		Query(termQuery).
