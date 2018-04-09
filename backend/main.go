@@ -97,7 +97,7 @@ func searchElastic(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	var err error
-	client, err = elastic.NewClient(elastic.SetURL(elasticURL))
+	client, err = elastic.NewClient(elastic.SetSniff(false), elastic.SetURL(elasticURL))
 	if err != nil {
 		panic(err)
 	}
