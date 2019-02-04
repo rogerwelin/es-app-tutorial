@@ -23,3 +23,19 @@ $ curl -XGET localhost:9200/_cat/indices?v
 ```shell
 $ curl -XGET 'localhost:9200/cartoon/_search?q=name:berserk&pretty'
 ```
+
+## Start the Go backend
+```shell
+$ cd backend && go build && ./main
+```
+
+## Open the frontend and start typing anime titles
+**On Mac**
+```shell
+$ open index.html
+```
+
+**On Linux**
+```shell
+$ google-chrome index.htnl
+```
