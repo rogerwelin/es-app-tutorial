@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Elastic Library</title>
+  <meta name="description" content="Anime Search Catalog">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+<div class="app-container" id="vue-instance">
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Anime Search - powered by Elastic & Go</a>
+    </div>
+  </nav>
+
+  <div class="card-panel">
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s12">
+            <input v-model="searchTerm" type="text" v-on:keyup="onSearchInput()">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="card-panel">
+    <span class="black-text">No. of Hits: {{ numHits }}</span>
+  </div>
+
+
+
+  <div>
+    <li v-for="document in searchResults">
+      {{ document.name }}
+    </li>
+  </div>
+
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.3/vue.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.17.0/axios.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
