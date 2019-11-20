@@ -3,48 +3,45 @@
 <head>
   <meta charset="utf-8">
   <title>Elastic Library</title>
-  <meta name="description" content="Literary Classic Search Engine.">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet" type="text/css" />
-  <link href="https://cdn.muicss.com/mui-0.9.20/css/mui.min.css" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,700|Open+Sans" rel="stylesheet">
-  <link href="styles.css" rel="stylesheet" />
+  <meta name="description" content="Anime Search Catalog">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
 <div class="app-container" id="vue-instance">
-
-    <!-- Search Bar Header -->
-    <div class="mui-panel">
-      <div class="mui-textfield">
-        <input v-model="searchTerm" type="text" v-on:keyup="onSearchInput()">
-        <label>Search</label>
-      </div>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Anime Search - powered by Elastic & Go</a>
     </div>
+  </nav>
 
-    <!-- Search Metadata Card -->
-    <div class="mui-panel">
-      <div class="mui--text-headline">{{ numHits }} Hits</div>
-      <div class="mui--text-subhead">Displaying Results {{ searchOffset }} - {{ searchOffset + 9 }}</div>
+  <div class="card-panel">
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s12">
+            <input v-model="searchTerm" type="text" v-on:keyup="onSearchInput()">
+          </div>
+        </div>
+      </form>
     </div>
+  </div>
 
-
-    <div>
-      <li v-for="document in searchResults">
-        {{ document.name }}
-      </li>
-    </div>
+  <div class="card-panel">
+    <span class="black-text">No. of Hits: {{ numHits }}</span>
+  </div>
 
 
 
-      <!-- Book Pagination Footer -->
-      <div class="modal-footer">
-        <button class="mui-btn mui-btn--flat" v-on:click="prevBookPage()">Prev Page</button>
-        <button class="mui-btn mui-btn--flat" v-on:click="closeBookModal()">Close</button>
-        <button class="mui-btn mui-btn--flat" v-on:click="nextBookPage()">Next Page</button>
-      </div>
-    </div>
+  <div>
+    <li v-for="document in searchResults">
+      {{ document.name }}
+    </li>
+  </div>
+
+
 </div>
-<script src="https://cdn.muicss.com/mui-0.9.28/js/mui.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.3/vue.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.17.0/axios.min.js"></script>
 <script src="app.js"></script>
