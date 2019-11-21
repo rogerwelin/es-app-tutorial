@@ -17,33 +17,20 @@
   </nav>
 
   <div class="card-panel">
-    <div class="row">
-      <form class="col s12">
-        <div class="row">
-          <div class="input-field col s12">
-            <input v-model="searchTerm" type="text" v-on:keyup="onSearchInput()">
-          </div>
-        </div>
-      </form>
-    </div>
+    <input v-model="searchTerm" type="text" v-on:keyup="onSearchInput()">
   </div>
 
   <div class="card-panel">
     <span class="black-text">No. of Hits: {{ numHits }}</span>
   </div>
 
-
-
-  <div>
-    <li v-for="document in searchResults">
-      {{ document.name }}
-    </li>
+  <div class="list">
+    <ul class="collection">
+      <li class="collection-item" v-for="document in searchResults">
+        {{ document.name }}
+      </li>
+    </ul>
   </div>
-
-  <ul>
-    <li>* test</li>
-    <li>* test</li>
-  </ul>
 
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.3/vue.min.js"></script>

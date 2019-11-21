@@ -3,6 +3,14 @@ body {
   padding: 10px;
 }
 
+.card-panel {
+  font-size: 20px;
+}
+
+.list {
+  font-size: 18px;  
+}
+
 .nav-wrapper {
   padding-left: 15px;
 }
